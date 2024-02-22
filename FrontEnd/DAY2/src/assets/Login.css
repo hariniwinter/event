@@ -1,0 +1,60 @@
+body{
+  background-image: url('D:\devapp\event\src\assets\Harini BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-container {
+  max-width: 600px;
+  max-height: max-content;
+  margin: auto;
+  padding: 20px;
+ 
+  border-radius: 5px;
+
+  /* background-image: url('https://res.cloudinary.com/dkjrj5nzt/image/upload/v1708413538/group-business-people-work-together-office_207634-6048_v978qy.jpg'); */
+  background-size: cover; 
+  background-color: rgba(22, 21, 21,0.3);
+  background-position: center;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Align children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  margin-left: 450px;
+  
+
+  }
+.login-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form label {
+  margin-bottom: 5px;
+}
+
+.login-container form input[type="text"],
+.login-container form input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.login-container form button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
