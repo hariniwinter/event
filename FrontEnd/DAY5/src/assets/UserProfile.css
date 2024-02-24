@@ -1,0 +1,41 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the profile horizontally */
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid #ccc; /* Add border around the profile */
+  padding: 20px; /* Add padding to create space around the profile */
+  max-width: 300px; /* Limit the width of the profile */
+  margin-left: 540px;
+  /* background-color: black; */
+  /* opacity: 0.5; */
+}
+
+.profile-image {
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  text-align: center; /* Center align the profile details */
+  font-style: italic; /* Italicize the profile details */
+}
+
+.profile-details h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.profile-details strong {
+  font-weight: bold;
+}
