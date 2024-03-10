@@ -1,0 +1,30 @@
+.about-us {
+  margin: 20px;
+  display: flex; /* Use flexbox */
+}
+
+.about-us-section {
+  background-color: #d7bbbb7a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  flex: 1;
+  margin-top: 8%;
+  margin-left: 2%; /* Take up half of the available space */
+}
+
+.about-us-images {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Take up half of the available space */
+}
+
+.about-us-image {
+  margin-bottom: 20px;
+}
+
+.about-us-image img {
+  width: 100%; 
+  border-radius: 8px;
+  height: 200%;
+}
