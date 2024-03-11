@@ -1,0 +1,17 @@
+.sidebar {
+  width: 272px; /* Adjust as needed */
+  background-color:#1c181b82;;
+  padding: 10px;
+  height: 100%;
+}
+
+.subdivision {
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.subdivision:hover {
+  background-color: #aaa;
+}

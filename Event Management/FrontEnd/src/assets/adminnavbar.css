@@ -1,0 +1,24 @@
+/* Navbar Styles */
+header {
+  background-color: black;
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+nav {
+  text-align: center;
+}
+
+.adminnavbar {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.adminnavbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.adminnavbar a:hover {
+  background-color: #555; /* Darken background color on hover */
+}
+  

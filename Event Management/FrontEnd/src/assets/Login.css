@@ -1,0 +1,102 @@
+body {
+  background-image: url('D:\devapp\event\src\assets\Harini BG.jpg');
+  background-size: cover;
+  background-position: 0%;
+  background-repeat: no-repeat;
+}
+
+.content_signin {
+  align-items: center;
+  margin-top: 17%;
+}
+
+h1 {
+  color: rgb(15, 15, 15);
+}
+
+h3 {
+  color: rgb(17, 17, 17);
+}
+
+/* Remove container grid styling */
+.container_signin {
+  background-color: rgba(82, 74, 74, 0.4);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  align-items: center;
+  margin: auto;
+}
+
+.event_img {
+  height: 420px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  width: 100%;
+  max-width: 300px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.signin {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.button_signin {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 9px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button[type='submit']:hover {
+  background-color: #565b61;
+}
+
+/* Dropdown styling */
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+/* Remove default browser styling on focus */
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+h1, h3 {
+  color: #020202;
+}

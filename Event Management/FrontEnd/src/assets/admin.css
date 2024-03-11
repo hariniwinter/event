@@ -1,0 +1,56 @@
+/* Style for the Admin Page */
+.admin-page {
+    max-width: 800px;
+    margin-top: 8%;
+    margin-left: 25%;
+    padding: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+
+  /* Style for the User List */
+.user-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style for the table */
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th, .user-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list th {
+    background-color: #f2f2f2;
+}
+
+.user-list tr:hover {
+    background-color: #f2f2f2;
+}
+
+  
